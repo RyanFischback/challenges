@@ -11,8 +11,8 @@ int main(){
     std::vector<int> input3 = {3, 3};
 
     twoSum(input, 9); // 0, 1
-    //twoSum(input, 6); // 1, 2
-    //twoSum(input, 6); // 0, 1
+    twoSum(input, 6); // 1, 2
+    twoSum(input, 6); // 0, 1
 
     return 0;
 }
